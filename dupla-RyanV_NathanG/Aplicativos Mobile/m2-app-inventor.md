@@ -53,3 +53,46 @@ Fazer chamar Som1. Tocar serve para que ao tocar a imagem o som será reproduzid
 Chama Som1. Vibrar serve para que ao som ser reproduzido o celular do usuário irá vibrar durante um tempo determinado.
 
 As alterações em relação ao código original foram: Imagem diferente
+
+Usando Camera – Projeto 4
+O propósito do Projeto 4 é que ao usuário pressionar o botão tirar foto, a câmera do dispositivo irá realizar uma fotografia.
+ 
+ <img width="397" height="512" alt="Captura de tela 2026-03-27 083117" src="https://github.com/user-attachments/assets/fda3a423-ee6f-473f-80d7-f183954d32d3" />
+
+Quando fazer chamar Câmera1. TirarFotografia tem a funcionalidade de ao pressionar o botão o dispositivo irá tirar uma fotografia.
+
+<img width="445" height="273" alt="Captura de tela 2026-03-27 083122" src="https://github.com/user-attachments/assets/6e550451-9314-4009-96c1-235baee2f620" />
+
+Várias Telas - Projeto 5
+O projeto 5 tem o intuito de mostrar diversas telas ao pressionar um botão.
+
+ <img width="278" height="523" alt="Captura de tela 2026-03-27 083755" src="https://github.com/user-attachments/assets/41d456df-4f38-4f9f-81e4-68a3cfd41f89" />   
+ 
+ <img width="374" height="187" alt="Captura de tela 2026-03-27 083804" src="https://github.com/user-attachments/assets/41a15659-02e2-4b5b-bcd1-8ae6a1b442bc" />
+
+Fazer abrir outra tela nomeDaTela(tela) tem a funcionalidade de trocar a tela exibida no dispositivo.
+Tela 1:
+
+ <img width="343" height="545" alt="Captura de tela 2026-03-27 083812" src="https://github.com/user-attachments/assets/34ad1569-eedd-4b45-a394-174c8be34d65" />
+<img width="428" height="200" alt="Captura de tela 2026-03-27 083821" src="https://github.com/user-attachments/assets/f86deb7c-11cf-4a5c-8d58-3b5773ff9bf2" />
+
+Quando VoltarInicio. Clique fazer abrir outra tela nomeDaTela serve para voltar para a tela inicial.
+
+Tela 2:
+
+<img width="318" height="520" alt="Captura de tela 2026-03-27 083826" src="https://github.com/user-attachments/assets/490aa1c1-df44-4ed4-aefb-f1d26753928a" />
+<img width="448" height="238" alt="Captura de tela 2026-03-27 083830" src="https://github.com/user-attachments/assets/3b75eca6-4080-43c2-b6ee-396b12972ee6" />
+
+Botões de ir para outra tela e retornar para a página inicial.
+
+Inserir Nome – Projeto 6
+O projeto 6 tem o intuito de que ao digitar o seu nome dentro da caixa de texto e apertar o botão “Clique Aqui” o aplicativo irá exibir o a palavra “Olá” junto do nome escrito.
+
+ <img width="324" height="525" alt="Captura de tela 2026-03-27 084008" src="https://github.com/user-attachments/assets/40d84342-d453-4505-a393-e49f03e6aa9c" />
+ 
+<img width="573" height="127" alt="Captura de tela 2026-03-27 084012" src="https://github.com/user-attachments/assets/abc86f4b-b8be-4953-bed8-c4cb1261a61f" />
+
+ 
+Fazer ajustar MostrarLegenda. Texto para, serve para que ao pressionar o botão uma mensagem seja exibida;
+Juntar “Olá” CaixaTexto. Texto “!!!” serve para juntar a palavra “Olá” ao nome escrito dentro da TextBox.
+
