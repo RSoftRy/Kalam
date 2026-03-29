@@ -21,7 +21,9 @@
 ## DUPLA DO TÉCNICO
 
 📄 Trabalhos pedagógicos do curso de DS
+
 ✅ Objetivo: criar, organizar e registrar os trabalhos do curso de DS feitos pela dupla.
+
 👥 Integrantes: Ryan Vinícius Gomes e Nathan Gabriel
 
 📁 Pastas:
