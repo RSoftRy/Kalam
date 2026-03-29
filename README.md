@@ -4,7 +4,7 @@
 - DUPLA DO TÉCNICO
 
 
-## GRUPO DO TCC
+### GRUPO DO TCC
 
 📄 Trabalho de Conclusão de Curso (TCC) do curso de Desenvolvimento de Sistemas (DS)
 
@@ -18,7 +18,7 @@
 - PW2 -> pasta dedicada as atividades pedagógicas do técnico, na matéria de Programação Web 2(PW2), sem relação com o TCC a ser elaborado.
 
 
-## DUPLA DO TÉCNICO
+### DUPLA DO TÉCNICO
 
 📄 Trabalhos pedagógicos do curso de DS
 
