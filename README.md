@@ -1,5 +1,4 @@
 ## DIVISÃO DO REPOSITÓRIO:
-
 - GRUPO DO TCC
 - DUPLA DO TÉCNICO
 
@@ -10,22 +9,25 @@
 
 🔎 Tema: processador de texto e plataforma colaborativa
 
-✅ Objetivo: contribuir para o acesso de todos a recursos acadêmicos e aprimorar o desenvolvimento textual
+✅ Objetivo: contribuir para o acesso de todos aos recursos acadêmicos e aprimorar o desenvolvimento textual
 
 👥 Integrantes: Ana Clara Soares da Silva Lima, Ryan Vinícius Gomes e Thiago de Souza Andriolli
 
-📁 Pastas:- 
-- PW2 -> pasta dedicada as atividades pedagógicas do técnico, na matéria de Programação Web 2(PW2), sem relação com o TCC a ser elaborado.
+📁 Pastas:
+
+- PW2 → pasta dedicada às atividades pedagógicas do curso técnico, na disciplina de Programação Web 2 (PW2), sem relação com o TCC a ser elaborado.
+- Pesquisas → pasta criada para registrar diferentes fontes e materiais de pesquisa, com o objetivo de utilizá-los na elaboração do TCC.
 
 
 ### DUPLA DO TÉCNICO
 
-📄 Trabalhos pedagógicos do curso de DS
+📄 Trabalhos pedagógicos do curso de Desenvolvimento de Sistemas (DS)
 
-✅ Objetivo: criar, organizar e registrar os trabalhos do curso de DS feitos pela dupla.
+✅ Objetivo: criar, organizar e registrar os trabalhos do curso realizados pela dupla
 
 👥 Integrantes: Ryan Vinícius Gomes e Nathan Gabriel
 
 📁 Pastas:
-- PW2 -> pasta para as atividades da matéria de Programação Web 2 -- Em dupla
-- PAM1 -> pasta para as atividades da matéria de Programação de Aplicativos Mobile 1 -- Em dupla
+
+- PW2 → pasta para as atividades da disciplina de Programação Web 2 — em dupla
+- PAM1 → pasta para as atividades da disciplina de Programação de Aplicativos Mobile 1 — em dupla
