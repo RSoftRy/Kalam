@@ -34,7 +34,7 @@ O cookie só será incluído pelo navegador na próxima requisição feita ao me
 Por isso, o valor do cookie só se torna visível no código após atualizar a página,
 quando então ele passa a existir dentro da variável **$_COOKIE**.
 
-Exercício 4
+## Exercício 4
 
 Por que Sessions são geralmente preferidas para autenticação de usuários em sistemas web?
 
