@@ -1,4 +1,5 @@
 ## Exercicio 1
+
 ### Diferença entre Cookies e Sessions
 
 Os Cookies armazenam as informações no navegador do usúario (podem ficar salvas mesmo se o usuário fechar a guia), já as sessions armazenam no servidor (enquanto a sessão do usuário estiver ativa, os dados ficarão lá). Os Cookies tem menos segurança que as Sessions, pois eles podem ser acessados ou alterados pelo próprio usuário, enquanto as Sessions apenas ficam armazenadas no servidor, sendo inacessiveís ao usuário.
@@ -10,9 +11,19 @@ Os momentos corretos para se usar os Cookies são:
 Já os momentos corretos para se usar as Sessions são:
 - Fazer a autenticação do usuário
 - Para guardar dados sensíveis
+- Para dados de duração temporária
 
 
-  
+## Exercicio 2
+
+### Loja virtual
+
+Em uma loja virtual, para manter um usuário logado, seria necessário o uso de Sessions, nas quais durante o uso do site iriam guardar as informações de login e permitir que o usuário navegasse pela página sem complicações. Sessions seriam a única opção viável aqui pois elas são mais seguras e não podem ser alteradas pelo usuário diretamente.
+
+Para armazenar os itens em um carrinho, seria necessário o uso das Sessions também, já que o carrinho precisar armazenar coisas apenas pelo período da sessão do usúario (ou ate que a compra seja efetuada)
+
+No caso das preferências do usuário, os Cookies são a melhor opção, já que estas informações de preferências não são informações sensíveis, além de serem coisas que precisam ficar armazenadas mesmo se o usúario sair do site.
+
 ## Exercicio 3
 
 ### Ao executar o arquivo no navegador
