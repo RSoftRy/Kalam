@@ -25,9 +25,14 @@
 
 ✅ Objetivo: criar, organizar e registrar os trabalhos do curso realizados pela dupla
 
-👥 Integrantes: Ryan Vinícius Gomes e Nathan Gabriel
+👥 Integrantes: Ryan Vinícius Gomes e Nathan Gabriel // Ana Clara e Henrique Suhr
 
 📁 Pastas:
 
+Pasta > Ana Clara e Henrique Suhr 
+- PW2 → pasta para as atividades da disciplina de Programação Web 2 — em dupla
+- PAM1 → pasta para as atividades da disciplina de Programação de Aplicativos Mobile 1 — em dupla
+
+Pasta > Ryan Vinícius e Nathan Gabriel
 - PW2 → pasta para as atividades da disciplina de Programação Web 2 — em dupla
 - PAM1 → pasta para as atividades da disciplina de Programação de Aplicativos Mobile 1 — em dupla
