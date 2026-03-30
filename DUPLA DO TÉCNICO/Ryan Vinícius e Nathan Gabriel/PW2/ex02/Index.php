@@ -1,5 +1,5 @@
 <!--
-Data: 02/03/2026
+Data: 29/03/2026
 Autor: Nathan Gabriel e Ryan Vinícius
 Objetivo:
 Exercício 2 - Faça um programa que leia um caractere "F" ou "C", indicando se o valor informado está em Fahrenheit ou Celsius.
@@ -15,17 +15,22 @@ Depois, o programa deve converter para a outra unidade.
 </head>
 <body>
 
-    <form action="Calculo.php" method="get"> 
-    <label> Digite a temperatura: </label>
-        <input type="number" name="n1" step="any" required>
-        <br><br>
+<h1>Conversão de Temperatura</h1>
 
-        <label> Digite o tipo de temperatura deseja converter:</label>
-        <input type="text" name="temp" step="any" required>
+<form action="calcula.php" method="post">
+    Digite a temperatura:
+    <input type="number" step="any" name="temp" required>
+    <br><br>
 
-        <input type="submit" value="Calculo">
-        
-    </form>
+    Tipo:
+    <select name="tipo">
+        <option value="C">Celsius</option>
+        <option value="F">Fahrenheit</option>
+    </select>
+
+    <br><br>
+    <input type="submit" value="Converter">
+</form>
     
 </body>
 </html>

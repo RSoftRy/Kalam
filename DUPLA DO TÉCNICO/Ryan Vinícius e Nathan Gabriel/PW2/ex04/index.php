@@ -1,5 +1,5 @@
 <!--
-Data: 02/03/2026
+Data: 29/03/2026
 Autor: Nathan Gabriel e Ryan Vinícius
 Objetivo:
 Exercício 4 -Leia um número n e imprima n linhas no seguinte formato (exemplo para n = 6):
@@ -19,15 +19,13 @@ Exercício 4 -Leia um número n e imprima n linhas no seguinte formato (exemplo 
 </head>
 <body>
 
-<form action="triangulo.php" method="get">
-    
-    <label>Digite um número:</label>
+<form action="calcula.php" method="post">
+
+    Digite um número:
     <input type="number" name="n" required>
-
     <br><br>
-
     <input type="submit" value="Gerar">
-
+    
 </form>
 
 </body>

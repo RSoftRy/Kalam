@@ -1,5 +1,5 @@
 <!--
-Data: 02/03/2026
+Data: 29/03/2026
 Autor: Nathan Gabriel e Ryan Vinícius
 Objetivo:
 Exercício 3 - Faça um programa que leia dois números e um operador ("+", "-", "*" ou "/").
@@ -15,7 +15,7 @@ O programa deve mostrar o resultado da operação.
 </head>
 <body>
 
- <form action="calculo.php" method="get">
+ <form action="calcula.php" method="post">
 
     <label>Digite o segundo número:</label>
     <input type="number" name="n1" step="any" required>
@@ -35,5 +35,6 @@ O programa deve mostrar o resultado da operação.
 
  </form>
 
+ 
 </body>
 </html>

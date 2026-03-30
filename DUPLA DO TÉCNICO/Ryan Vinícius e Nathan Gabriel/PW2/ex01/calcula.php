@@ -1,7 +1,7 @@
 <?php
     
-    if(isset($_GET["n1"])) {
-        $n1 = $_GET["n1"];
+    if(isset($_POST["n1"])) {
+        $n1 = $_POST["n1"];
 
     if($n1 >= 100 && $n1<=200)
     {
@@ -14,3 +14,5 @@
 }
 
 ?>
+<br><br>
+<a href="index.php">Voltar</a>

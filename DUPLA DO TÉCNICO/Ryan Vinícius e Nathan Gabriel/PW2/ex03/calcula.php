@@ -1,8 +1,8 @@
 <?php
 
-$n1 = $_GET["n1"];
-$n2 = $_GET["n2"];
-$op = $_GET["op"];
+$n1 = $_POST["n1"];
+$n2 = $_POST["n2"];
+$op = $_POST["op"];
 
 if ($op == "+"){
 
@@ -34,3 +34,6 @@ else{
 }
 
 ?>
+
+<br><br>
+<a href="index.php">Voltar</a>

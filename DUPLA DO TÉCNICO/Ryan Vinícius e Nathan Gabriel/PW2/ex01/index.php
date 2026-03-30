@@ -1,5 +1,5 @@
 <!--
-Data: 02/03/2026
+Data: 29/03/2026
 Autor: Nathan Gabriel e Ryan Vinícius
 Objetivo:
 Exercício 1 - Intervalo entre 100 e 200
@@ -16,7 +16,7 @@ Faça um programa que receba um número e diga se este número está no interval
 <body>
     <h1>Número entre o intervalo de 100 e 200 </h1>
 
- <form action="calcula.php" method="get">
+ <form action="calcula.php" method="post">
 
     <label>Escreva um número:</label>
     <input type="number" name="n1" step="any" required>
