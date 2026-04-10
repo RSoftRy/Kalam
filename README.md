@@ -31,7 +31,7 @@
 
 Pasta > Ana Clara e Henrique Suhr 
 - PW2 → pasta para as atividades da disciplina de Programação Web 2 — em dupla
-- PAM1 → pasta para as atividades da disciplina de Programação de Aplicativos Mobile 1 — em dupla
+- PAM → pasta para as atividades da disciplina de Programação de Aplicativos Mobile 1 — em dupla
 
 Pasta > Ryan Vinícius e Nathan Gabriel
 - PW2 → pasta para as atividades da disciplina de Programação Web 2 — em dupla
