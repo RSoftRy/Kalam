@@ -18,7 +18,7 @@
 - PW2 → pasta dedicada às atividades pedagógicas do curso técnico, na disciplina de Programação Web 2 (PW2), sem relação com o TCC a ser elaborado.
 - Pesquisas → pasta criada para registrar diferentes fontes e materiais de pesquisa, com o objetivo de utilizá-los na elaboração do TCC.
 
-
+_____________________________________________________________________________________________________________________________________________________
 ### DUPLA DO TÉCNICO
 
 📄 Trabalhos pedagógicos do curso de Desenvolvimento de Sistemas (DS)
