@@ -25,14 +25,21 @@
 
 ✅ Objetivo: criar, organizar e registrar os trabalhos do curso realizados pela dupla
 
-👥 Integrantes: Ryan Vinícius Gomes e Nathan Gabriel // Ana Clara e Henrique Suhr
+👥 Integrantes: Ana Clara e Henrique Suhr // Ryan Vinícius Gomes e Nathan Gabriel // Thiago de Souza e Murilo Cremonesi
 
 📁 Pastas:
 
-Pasta > Ana Clara e Henrique Suhr 
+Pasta > Ana Clara e Henrique Suhr
 - PW2 → pasta para as atividades da disciplina de Programação Web 2 — em dupla
 - PAM → pasta para as atividades da disciplina de Programação de Aplicativos Mobile 1 — em dupla
 
 Pasta > Ryan Vinícius e Nathan Gabriel
 - PW2 → pasta para as atividades da disciplina de Programação Web 2 — em dupla
 - PAM1 → pasta para as atividades da disciplina de Programação de Aplicativos Mobile 1 — em dupla
+
+Repositório > TheWho-2C1 > Pasta > Thiago de Souza e Murilo Cremonesi 
+- PHP → pasta para as atividades da disciplina de Programação Web 2 — em dupla
+- App-Inventor → pasta para as atividades da disciplina de Programação de Aplicativos Mobile 1 — em dupla
+
+__________________________________________________________________________________________________________________________
+<div align=center>  <img align=left alt="Github" height="60" width="60" src="https://github.com/gui-bus/TechIcons/blob/main/Dark/Github.svg"> <img alt="mit" height="60" width="60" src="https://avatars.githubusercontent.com/u/1742866?s=200&v=4"> <img align=right alt="PHP" height="60" width="60" src="https://github.com/gui-bus/TechIcons/blob/main/Dark/PHP.svg"> </div>
