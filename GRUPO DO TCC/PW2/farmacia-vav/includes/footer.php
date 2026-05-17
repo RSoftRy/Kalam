@@ -1,7 +1,6 @@
-<!-- rodape.php -->
 <hr>
     <footer>
-        <p>&copy; 2026 - Desenvolvido pela Turma de Desenvolvimento de Sistemas- Etec Vasco Antônio Venchiarutti</p>
+        <p>&copy; 2026 - Desenvolvido pelo Grupo Kalam da Turma de Desenvolvimento de Sistemas- Etec Vasco Antônio Venchiarutti</p>
     </footer>
 </body>
 </html>
