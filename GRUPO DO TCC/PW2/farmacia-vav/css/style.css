@@ -14,6 +14,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+   
 }
 
 main {
@@ -157,6 +158,31 @@ hr {
 .btn-secundario {
     background-color: #ccc;
     color: #333;
+}
+
+/* Tabela de produtos */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  
+}
+
+/* th: cabeçalho da tabela, td: células da tabela */
+table th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+table th {
+  background-color: #2a7d6f;
+  color: #ffffff;
+}
+
+/* Espaçamento */
+.espaco{
+  padding:10px;
+
 }
 
 /* ================================
