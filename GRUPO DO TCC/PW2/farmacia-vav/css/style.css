@@ -12,6 +12,12 @@ body {
     background-color: #bad8f6;
     color: #333;
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
 }
 
 /* === NAV (30%) === */
@@ -172,6 +178,7 @@ footer {
     text-align: center;
     padding: 16px;
     font-size: 13px;
-    color: #888;
-    margin-top: 40px;
+    color: #ffffff;
+    margin-top: auto;
+    background-color:  #2a7d6f;
 }
