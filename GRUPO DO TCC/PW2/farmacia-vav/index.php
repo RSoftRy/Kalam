@@ -17,7 +17,6 @@ $produtos = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
 // 4. EXIBIR (O laço de repetição):
 echo "<h2>Lista de Produtos</h2>";
-<br>
 if ($produtos) {
     foreach ($produtos as $produto) {
         echo "ID: " . $produto['id'] . " | ";
