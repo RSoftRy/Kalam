@@ -1,4 +1,20 @@
-## Tema do site:
+## Tema do site: Alimentação
+
+
+## Proposta do site: 
+
+Objetivo: O Site sera para uma sorveteria gourmet, com foco em venda de produtos, visualização de cardápio,
+apresentação da história do local e também avaliações sobre o ambiente físico.
+
+O que o usuário encontrará nele: 
+- Cardápio online com fotos, preços, ingredientes e opções de personalização;
+- Sistema de cadastro e login;
+- Carrinho digital para realizar pedidos;
+- Área para pedidos de retirada no local;
+- Informações sobre a história da sorveteria Kalam's;
+- Espaço de avaliações e críticas dos clientes;
+- Interface moderna, simples e responsiva para celular e computador.
+
 
 ## Público Alvo:
 
@@ -11,9 +27,7 @@ além de uma alta qualidade de ingredientes, pode atrai-los. Os adultos gostam d
 ter um bom histórico e confiabialidade; já os jovens gostam de locais que vendem expériências
 e sonhos.
 
-## funções do site: 
--> Gerar  interesse do público tanto com relação aos sorvetes e gelatos, mas tambem quanto ao ambiente
-da loja física; ele ira mostrar o cardápio; permitira a compra dos sorvetes através do site
-(Sorvete a retirar), ira apresentar um pouco da história do local, a fim de atrair o
-público adulto; mostrara as experiências/sensações de comer lá,  para desta forma atrair
-támbem o público jovem.
+Necessidades do público:
+- navegação simples e rapída
+- cardápio online simples mas visualmente atrativo
+- informações claras sobre os sabores, implementos, preços e ingredientes
