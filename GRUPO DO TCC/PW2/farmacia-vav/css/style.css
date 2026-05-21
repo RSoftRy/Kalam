@@ -1,11 +1,10 @@
-
 /* === RESET BÁSICO === */
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-
+ 
 /* === BODY (60%) === */
 body {
     font-family: Arial, sans-serif;
@@ -14,109 +13,145 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-   
+    font-size: 15px;
 }
-
+ 
 main {
     flex: 1;
+    padding: 16px;
 }
-
+ 
 /* === NAV (30%) === */
 nav {
     background-color: #2a7d6f;
     color: white;
-    padding: 14px 20px;
+    padding: 12px 16px;
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 8px;
     flex-wrap: wrap;
 }
-
+ 
 nav strong {
-    font-size: 1.1rem;
-    margin-right: 10px;
+    font-size: 1rem;
+    margin-right: 6px;
+    flex-basis: 100%;
 }
-
+ 
 nav a {
     color: white;
     text-decoration: none;
-    font-size: 15px;
-    padding: 4px 8px;
+    font-size: 14px;
+    padding: 6px 10px;
     border-radius: 4px;
     transition: background 0.2s;
+    flex: 1;
+    text-align: center;
+    min-width: 70px;
+    border: 1px solid rgba(255,255,255,0.25);
 }
-
+ 
 nav a:hover {
     background-color: rgba(255, 255, 255, 0.2);
 }
-
+ 
 hr {
     border: none;
     border-top: 1px solid #ddd;
 }
-
+ 
 /* === CONTAINER PRINCIPAL === */
 .container {
-    max-width: 600px;
-    margin: 30px auto;
+    width: 100%;
     padding: 0 16px;
+    margin: 20px auto;
 }
-
+ 
 /* === TÍTULO DA PÁGINA === */
 .page-title {
-    font-size: 25px;
+    font-size: 20px;
     color: #2a7d6f;
-    margin-bottom: 20px;
+    margin-bottom: 14px;
 }
-
-table {
-    background-color: rgba(230, 230, 230, 0.671);
+ 
+.page-subtitle {
+    font-size: 14px;
+    color: #2a7d6f;
+    margin-bottom: 14px;
 }
-
+ 
+.espaco {
+    padding: 16px 16px 0;
+    text-align: center;
+}
+ 
 /* ================================
    ALERTAS (10%)
 ================================ */
 .alerta {
     padding: 12px 16px;
     border-radius: 6px;
-    margin-bottom: 20px;
-    font-size: 15px;
+    margin-bottom: 16px;
+    font-size: 14px;
     font-weight: bold;
 }
-
+ 
 .alerta-sucesso {
-    background-color: #bad8f6;
+    background-color: #d4edda;
     color: #1a5e2e;
     border-left: 5px solid #28a745;
 }
-
+ 
 .alerta-erro {
-    background-color: #bad8f6;
+    background-color: #fde8e8;
     color: #7a2a0e;
     border-left: 5px solid #e05c2a;
 }
-
+ 
+/* === msg-sucesso / msg-erro ===*/
+.msg-sucesso {
+    padding: 12px 16px;
+    border-radius: 6px;
+    margin-bottom: 16px;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #d4edda;
+    color: #1a5e2e;
+    border-left: 5px solid #28a745;
+}
+ 
+.msg-erro {
+    padding: 12px 16px;
+    border-radius: 6px;
+    margin-bottom: 16px;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #fde8e8;
+    color: #7a2a0e;
+    border-left: 5px solid #e05c2a;
+}
+ 
 /* === FORMULÁRIO === */
 .form-cadastro {
     background-color: white;
-    padding: 24px;
+    padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 }
-
+ 
 .form-grupo {
-    margin-bottom: 18px;
+    margin-bottom: 16px;
     display: flex;
     flex-direction: column;
     gap: 6px;
 }
-
+ 
 .form-grupo label {
     font-size: 0.9rem;
     font-weight: bold;
     color: #555;
 }
-
+ 
 .form-grupo input {
     padding: 10px 12px;
     border: 1px solid #ccc;
@@ -125,84 +160,136 @@ table {
     transition: border-color 0.2s;
     width: 100%;
 }
-
+ 
 .form-grupo input:focus {
     outline: none;
     border-color: #28a745;
 }
-
+ 
 /* === BOTÕES === */
 .form-acoes {
     display: flex;
-    gap: 12px;
-    margin-top: 24px;
+    gap: 10px;
+    margin-top: 20px;
     flex-wrap: wrap;
 }
-
+ 
 .btn {
-    padding: 10px 24px;
+    padding: 12px 20px;
     border: none;
     border-radius: 5px;
-    font-size: 18px;
+    font-size: 16px;
     cursor: pointer;
     text-decoration: none;
     text-align: center;
     transition: opacity 0.2s;
+    width: 100%;
+    display: block;
 }
-
+ 
 .btn:hover {
     opacity: 0.85;
 }
-
+ 
 .btn-primario {
     background-color: #28a745;
     color: white;
 }
-
+ 
 .btn-secundario {
     background-color: #ccc;
     color: #333;
 }
-
-/* Tabela de produtos */
+ 
+/* === TABELA — oculta em mobile, visível no desktop === */
+.tabela-wrapper {
+    display: none;
+}
+ 
 table {
-  width: 100%;
-  border-collapse: collapse;
-  
+    width: 100%;
+    border-collapse: collapse;
+    background-color: rgba(230, 230, 230, 0.671);
 }
-
-/* th: cabeçalho da tabela, td: células da tabela */
-table th, td {
-  border: 1px solid #ccc;
-  padding: 8px;
-  text-align: left;
+ 
+table th, table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
 }
-
+ 
 table th {
-  background-color: #2a7d6f;
-  color: #ffffff;
+    background-color: #2a7d6f;
+    color: #ffffff;
 }
-
-/* Espaçamento */
-.espaco{
-  padding:10px;
-
+ 
+/* === CARDS — exibidos em mobile no lugar da tabela === */
+.cards-lista {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
 }
-
-/* ================================
-   RESPONSIVO — Mobile First
-   Ajustes para telas maiores
-================================ */
-@media (min-width: 768px) {
-    .container {
-        padding: 0;
-    }
-
-    nav {
-        padding: 14px 40px;
-    }
+ 
+.card-produto {
+    background-color: white;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+    border-left: 4px solid #2a7d6f;
 }
-
+ 
+.card-produto .card-nome {
+    font-size: 16px;
+    font-weight: bold;
+    color: #2a7d6f;
+    margin-bottom: 8px;
+}
+ 
+.card-produto .card-linha {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    padding: 4px 0;
+    border-bottom: 1px solid #f0f0f0;
+    color: #555;
+}
+ 
+.card-produto .card-linha:last-of-type {
+    border-bottom: none;
+}
+ 
+.card-produto .card-linha span:first-child {
+    color: #888;
+}
+ 
+.card-acoes {
+    display: flex;
+    gap: 8px;
+    margin-top: 12px;
+}
+ 
+.card-acoes a,
+.card-acoes button {
+    flex: 1;
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    text-decoration: none;
+}
+ 
+.btn-editar {
+    background-color: #2a7d6f;
+    color: white;
+}
+ 
+.btn-excluir {
+    background-color: #e05c2a;
+    color: white;
+}
+ 
 /* === FOOTER === */
 footer {
     text-align: center;
@@ -210,5 +297,57 @@ footer {
     font-size: 13px;
     color: #ffffff;
     margin-top: auto;
-    background-color:  #2a7d6f;
+    background-color: #2a7d6f;
+}
+ 
+/* ================================
+   DESKTOP — min-width: 768px
+================================ */
+@media (min-width: 768px) {
+ 
+    main {
+        padding: 24px 40px;
+    }
+ 
+    nav {
+        padding: 14px 40px;
+        gap: 20px;
+    }
+ 
+    nav strong {
+        flex-basis: auto;
+        font-size: 1.1rem;
+    }
+ 
+    nav a {
+        flex: none;
+        font-size: 15px;
+        border: none;
+        text-align: left;
+        min-width: auto;
+    }
+ 
+    .container {
+        max-width: 960px;
+        margin: 30px auto;
+        padding: 0;
+    }
+ 
+    .page-title {
+        font-size: 25px;
+    }
+ 
+    .btn {
+        width: auto;
+        display: inline-block;
+    }
+ 
+    /* Esconde os cards e mostra a tabela no desktop */
+    .cards-lista {
+        display: none;
+    }
+ 
+    .tabela-wrapper {
+        display: block;
+    }
 }
