@@ -15,6 +15,10 @@ O que o usuário encontrará nele:
 - Espaço de avaliações e críticas dos clientes;
 - Interface moderna, simples e responsiva para celular e computador.
 
+Qual problema o site pretende resolver:
+A dificuldade que muitos clientes possuem em acessar informações claras sobre os produtos e realizar pedidos
+de forma prática. Além disso, busca melhorar a divulgação da sorveteria, oferecer mais conforto ao cliente
+no momento da compra e gerar familiaridade com a loja ao apresentar sua história.
 
 ## Público Alvo:
 
