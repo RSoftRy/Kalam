@@ -1,8 +1,17 @@
 ## Tema do site:
 
+
 ## Público Alvo:
--> O público-alvo da sorveteria gourmet Kalam's é composto principalmente por adolescentes e adultos, 
-com faixa etária entre 15 e 45 anos. Esse grupo costuma buscar experiências diferentes e únicas, por
+
+Faixa Etária -> O público-alvo da sorveteria gourmet Kalam's é composto principalmente por adolescentes e adultos, 
+com faixa etária entre 15 e 45 anos. 
+
+Interesses -> Esse grupo costuma buscar experiências diferentes e únicas, por
 isso, a venda de gelatos e sorvetes com grande variadade de sabores, coberturas e implementos,
-além de uma alta qualidade de ingredientes, pode atrai-los.
+além de uma alta qualidade de ingredientes, pode atrai-los. O site terá a função de gerar 
+interesse do público tanto com relação aos sorvetes e gelatos, mas tambem quanto ao ambiente
+da loja física, ele ira mostrar o cardápio, permitir a compra dos sorvetes através do site
+(Sorvete a retirar), ira apresentar um pouco da história do local, a fim de atrair o
+público adulto e também mostrar as experiências/sensações de comer lá,  para desta forma atrair
+támbem o público jovem.
 
