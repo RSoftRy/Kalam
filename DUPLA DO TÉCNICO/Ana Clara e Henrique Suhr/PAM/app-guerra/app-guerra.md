@@ -219,6 +219,3 @@ Restante da página:
 
 
 <img width="300" height="630" alt="image" src="https://github.com/user-attachments/assets/090bef56-eb4e-4345-b889-317788f896bc" />
-
-
-altere a dimensão das imagens para não ficarem desproporcionais
