@@ -3,8 +3,9 @@
 
 ## Proposta do site: 
 
-Objetivo: O Site sera para uma sorveteria gourmet, com foco em venda de produtos, visualização de cardápio,
-apresentação da história do local e também avaliações sobre o ambiente físico.
+Objetivo: O Site sera um Editor de Texto, que terá como objetivo integrar ferramentas de criação de mundo e de pesquisas,
+facilitando a criação de histórias (no caso de escritores) e permitindo pesquisas facéis e de nivel académico (para
+universitários)
 
 O que o usuário encontrará nele: 
 - Cardápio online com fotos, preços, ingredientes e opções de personalização;
