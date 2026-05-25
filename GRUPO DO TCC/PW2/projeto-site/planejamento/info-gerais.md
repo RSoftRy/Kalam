@@ -1,4 +1,4 @@
-## Tema do site: Alimentação
+## Tema do site: Editor de Texto integrado a criação de mundo e fontes de pesquisa.
 
 
 ## Proposta do site: 
