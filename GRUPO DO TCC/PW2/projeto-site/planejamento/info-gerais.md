@@ -1,46 +1,50 @@
-## Tema do site: Editor de Texto integrado a criação de mundo e fontes de pesquisa.
+## Tema do site: Editor de Texto Integrado à Criação de Mundo e Fontes de Pesquisa
 
 
 ## Proposta do site: 
 
-Objetivo: O Site sera um Editor de Texto, que terá como objetivo integrar ferramentas de criação de mundo e de pesquisas,
-facilitando a criação de histórias (no caso de escritores) e permitindo pesquisas facéis e de nivel académico (para
-universitários)
+Objetivo: O site será um editor de texto que terá como objetivo integrar ferramentas de criação de mundo e de pesquisa,
+facilitando a criação de histórias para escritores e permitindo pesquisas rápidas, acessíveis e de nível acadêmico para 
+estudantes universitários.
 
 O que o usuário encontrará nele: 
-- Cardápio online com fotos, preços, ingredientes e opções de personalização;
-- Sistema de cadastro e login;
-- Carrinho digital para realizar pedidos;
-- Área para pedidos de retirada no local;
-- Informações sobre a história da sorveteria Kalam's;
-- Espaço de avaliações e críticas dos clientes;
-- Interface moderna, simples e responsiva para celular e computador.
+- Ferramentas de edição de texto;
+- Ferramenta de pesquisa utilizando fontes acadêmicas;
+- Página de comunidade;
+- Páginas focadas em criação de mundo.
 
 Quais informações ou serviços serão oferecidos: 
-- Informações completas sobre os sorvetes e gelatos(Preços, ingredientes e imagens dos produtos);
-- Sistema de pedidos online para retirada;
-- Gerenciamento de carrinho de compras;
-- Avaliações e comentários de clientes;
-- História e identidade da marca Kalam's;
-- Área administrativa para gerenciamento de cardápio e pedidos.
+- Informações provenientes de fontes de pesquisa confiáveis;
+- Edição de texto variada (cor, tamanho, fonte, formatação, entre outros);
+- Ferramentas de criação de mundo simples e fáceis de compreender.
 
 Qual problema o site pretende resolver:
-A dificuldade que muitos clientes possuem em acessar informações claras sobre os produtos e realizar pedidos
-de forma prática. Além disso, busca melhorar a divulgação da sorveteria, oferecer mais conforto ao cliente
-no momento da compra e gerar familiaridade com a loja ao apresentar sua história.
+  O site pretende resolver a dificuldade que muitos usuários possuem em encontrar fontes confiáveis de forma rápida e acessível,
+principalmente em momentos em que é necessário pesquisar informações com agilidade e praticidade.
+  Além disso, o site auxiliará escritores em seus processos criativos, permitindo o uso de ferramentas como linhas do tempo, 
+histórico de acontecimentos e palavras-chave especiais que fornecerão explicações detalhadas em uma espécie de informação oculta.
+  Por fim, todas essas funcionalidades estarão integradas a um editor de texto, centralizando ideias, pesquisas e ferramentas 
+em um único lugar, sem a necessidade de utilizar diversos sites diferentes, evitando confusão e melhorando a organização do usuário.
 
 ## Público Alvo:
 
-Faixa Etária -> O público-alvo da sorveteria gourmet Kalam's é composto principalmente por adolescentes e adultos, 
-com faixa etária entre 15 e 45 anos. 
+Faixa Etária -> Jovens e Adultos (Principalmente escritores e universitários)
 
-Interesses -> Esse grupo costuma buscar experiências diferentes e únicas, por
-isso, a venda de gelatos e sorvetes com grande variadade de sabores, coberturas e implementos,
-além de uma alta qualidade de ingredientes, pode atrai-los. Os adultos gostam de algo que parece
-ter um bom histórico e confiabialidade; já os jovens gostam de locais que vendem expériências
-e sonhos.
+Interesses -> 
+- Escrita criativa;
+- Criação de histórias e universos fictícios;
+- Organização de ideias e projetos;
+- Pesquisas acadêmicas;
+- Leitura e produção de conteúdo;
+- Ferramentas de produtividade;
+- Desenvolvimento de personagens, mapas e linhas do tempo;
+- Estudos universitários e pesquisas confiáveis.
 
 Necessidades do público:
-- navegação simples e rapída
-- cardápio online simples mas visualmente atrativo
-- informações claras sobre os sabores, implementos, preços e ingredientes
+- Encontrar fontes acadêmicas confiáveis de forma rápida e acessível;
+- Centralizar escrita, pesquisa e organização em um único local;
+- Facilitar o processo criativo durante a criação de histórias;
+- Organizar informações importantes sem precisar utilizar diversos aplicativos ou sites;
+- Melhorar a produtividade durante estudos e produções textuais;
+- Possuir ferramentas intuitivas e fáceis de compreender;
+- Ter acesso rápido a recursos de edição e criação de mundo;
