@@ -97,7 +97,7 @@ Depois do cadastro aparecerá a tela para salvar as preferências do usuário, c
 
 ## Recursos que o site pode utilizar:
 
-🗺️ Mapas;
-💻 Interface responsiva;
-👤 Personalização de avatar;
+🗺️ Mapas; <br>
+💻 Interface responsiva; <br>
+👤 Personalização de avatar; <br>
 🤖 Inteligência Artificial.
