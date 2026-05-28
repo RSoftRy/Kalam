@@ -48,3 +48,56 @@ Necessidades do público:
 - Melhorar a produtividade durante estudos e produções textuais;
 - Possuir ferramentas intuitivas e fáceis de compreender;
 - Ter acesso rápido a recursos de edição e criação de mundo;
+
+## Estrutura Inicial do Site:
+
+▸ O menu se encontra na parte superior da tela em forma de barra, contendo as páginas: Início, Colaborativo e Mundos. Esse apenas é visível após o login/cadastro.
+
+1. Página login e cadastro
+
+▸ Cadastro <br>
+- Nome de usuário; 
+- Senha; 
+- Email; 
+- Nome completo; 
+- Telefone (opicional); 
+- Áreas de atuação (entusiasta, estudante, graduado, etc).
+
+Tendo o nome completo, o programa validará sua área de atuação.
+
+Depois do cadastro aparecerá a tela para salvar as preferências do usuário, como "Ciência da Computação", "Física", "Literatura".
+
+▸ Login (caso usuário já cadastrado): <br>
+- Usuário; 
+- Senha.
+
+2. Início <br>
+
+▸ Processador de texto: <br>
+- Caixa de ferramentas para edição do texto como alterações de fonte, corpo do texto, imagens, etc.;
+- Inteligência Artificial (IA), auxiliando no desenvolvimento textual, podendo dar recursos acadêmicos conforme o assunto abordado e dando ajuda na organização do texto e ideias;
+- Formas de interagir com arquivos, como criar, salvar, exportar e importar, publicar na própria plataforma ou ver histórico.
+- Barra de tarefas, onde há outras funções que não interferem diretamente na modificação do texto, como a aba de criação de mundo, na qual dá informações de palavras-chave citadas no texto que são interligadas, sendo diretamente (palavra-chave citada em um arquivo de mundo tal como no arquivo de texto) ou indiretamente (palavra-chave com assunto interligado ao arquivo de mundo). <br>
+
+3. Colaborativo <br>
+
+▸ Barra de pesquisa:
+- Por meio de palavras-chave, acessar documentos acadêmicos confiáveis de outros usuários colaboradores, que são apresentados com seu nível de experiência no tema: pós-graduado, doutor, entusiasta, etc.; <br>
+
+▸ "Feed" de postagens que aparecerá conforme a preferência; <br>
+
+▸ O usuário também pode, por meio da página de editor de texto ou pelo ícone de mais na tela, publicar seus artigos, tendo a opção de importar ou de criar, o levando para a página do editor de texto; <br>
+
+▸ Salvamento de artigos: <br>
+- Salvamento de artigos que serão usados ou lidos posteriormente, tendo a possibilidade de usá-los como referências bibliográficas na montagem de um artigo- estes ficam na área de "salvos" nessa mesma página.
+
+4. Mundos <br>
+
+▸ Nessa página haverá ferramentas para a criação de mundos a fim de desenvolver narrativas, contendo ferramentas de linha do tempo, histórico de acontecimentos, palavras-chave que, ao serem colocadas em foco, mostram informações detalhadas; mapas, personalização de avatar, etc.
+
+## Recursos que o site pode utilizar:
+
+🗺️ Mapas;
+💻 Interface responsiva;
+👤 Personalização de avatar;
+🤖 Inteligência Artificial.
