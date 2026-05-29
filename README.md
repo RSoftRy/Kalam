@@ -14,7 +14,7 @@
 
 👥 Integrantes: Ana Clara Soares da Silva Lima, Ryan Vinícius Gomes e Thiago de Souza Andriolli
 
-📁 Pastas:
+📁 Pastas: 
 
 - PW2 → pasta dedicada às atividades pedagógicas do curso técnico, na disciplina de Programação Web 2 (PW2), sem relação com o TCC a ser elaborado.
 - Pesquisas → pasta criada para registrar diferentes fontes e materiais de pesquisa, com o objetivo de utilizá-los na elaboração do TCC.
@@ -28,7 +28,7 @@ ________________________________________________________________________________
 
 👥 Integrantes: Ana Clara e Henrique Suhr // Ryan Vinícius Gomes e Nathan Gabriel // Thiago de Souza e Murilo Cremonesi
 
-📁 Pastas:
+📁 Pastas: (Separados por bimestre)
 
 Pasta > Ana Clara e Henrique Suhr
 - PW2 → pasta para as atividades da disciplina de Programação Web 2 — em dupla
