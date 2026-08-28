@@ -89,6 +89,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
             "Texto original"    => $texto,
             "Criptografado"     => base64_encode($criptografado),
             "Descriptografado"  => $descriptografado,
+        
         ];
  
     } elseif ($tipo === "base64") {
@@ -177,6 +178,55 @@ $opcoes = [
     "md5"         => "MD5",
 ];
  
+/* ============================================================
+   TEXTOS EXPLICATIVOS
+   Um bloco de texto para cada tipo, explicando o funcionamento.
+   Fica centralizado aqui para ser fácil de editar/revisar depois.
+   ============================================================ */
+ 
+$explicacoes = [
+ 
+    "simetrica" =>
+        "Na criptografia simétrica a mesma chave é usada tanto para criptografar quanto para descriptografar. 
+        O algoritmo AES-256-CBC divide o texto em blocos e utiliza uma chave de 256 bits combinada com um 
+        vetor de inicialização (IV) diferente a cada execução, e por isso o mesmo texto gera um resultado 
+        criptografado diferente toda vez que o formulário é enviado. É um método rápido, muito usado para 
+        proteger grandes volumes de dados, mas exige que a chave seja compartilhada de forma segura entre 
+        quem criptografa e quem descriptografa.",
+ 
+    "base64" =>
+        "Aqui a criptografia usada por trás é a mesma AES-256-CBC do exemplo anterior. A diferença é que o IV 
+        e o texto criptografado são concatenados e convertidos para Base64. É importante deixar claro que o 
+        Base64 não é uma forma de criptografia: ele apenas representa dados binários como uma sequência de 
+        caracteres de texto, o que facilita guardar ou transmitir a informação (em bancos de dados, JSON, 
+        URLs etc). Qualquer pessoa consegue decodificar um Base64 sem precisar de nenhuma senha — a segurança 
+        aqui continua vindo inteiramente da criptografia AES por trás dele.",
+ 
+    "assimetrica" =>
+        "Na criptografia assimétrica (RSA) existem duas chaves diferentes: uma chave pública, que pode ser 
+        distribuída livremente e serve apenas para criptografar, e uma chave privada, mantida em sigilo, que 
+        é a única capaz de descriptografar o que foi criptografado com a chave pública correspondente. O 
+        método é baseado em problemas matemáticos difíceis de reverter (como a fatoração de números muito 
+        grandes) e é mais lento que a criptografia simétrica, sendo usado principalmente para troca segura de 
+        chaves, assinaturas digitais e certificados — não para grandes volumes de dados.",
+ 
+    "hashing" =>
+        "Hashing é bem diferente das criptografias anteriores porque é um processo de mão única: não existe 
+        forma de reverter um hash e recuperar o texto original a partir dele. A função password_hash() gera 
+        um hash e adiciona automaticamente um salt (um valor aleatório) para que a mesma senha produza hashes 
+        diferentes a cada execução. Para conferir uma senha, usa-se password_verify(), que compara a senha 
+        informada com o hash já salvo, sem nunca precisar 'desfazer' o hash. É o método recomendado para 
+        armazenar senhas.",
+ 
+    "md5" =>
+        "MD5 também é uma função de hash de mão única, mas hoje é considerada obsoleta e insegura para proteger 
+        senhas: ela é rápida demais para calcular, o que facilita ataques de força bruta, e já foram 
+        encontradas colisões (dois textos diferentes que geram o mesmo hash). Ainda é usada em situações como 
+        verificar a integridade de um arquivo baixado, mas não deve ser usada para guardar senhas — para isso 
+        o ideal é o password_hash() mostrado na opção de Hashing acima.",
+ 
+];
+ 
 ?>
  
 <!DOCTYPE html>
@@ -213,6 +263,15 @@ $opcoes = [
             padding: 15px;
             border-radius: 5px;
             word-break: break-word;
+        }
+ 
+        .explicacao {
+            background: #eaf4ff;
+            color: #1a3d5c;
+            padding: 15px;
+            border-radius: 5px;
+            line-height: 1.6;
+            border-left: 4px solid #2c7be5;
         }
  
         .erro {
@@ -321,9 +380,19 @@ $opcoes = [
 
     </div>
  
+    <?php if (isset($explicacoes[$tipo])): ?>
+ 
+        <div class="card">
+            <h2>Como funciona?</h2>
+            <div class="explicacao">
+                <?= nl2br(htmlspecialchars($explicacoes[$tipo])) ?>
+            </div>
+        </div>
+ 
+    <?php endif; ?>
+ 
 <?php endif; ?>
  
 </body>
  
 </html>
- 
