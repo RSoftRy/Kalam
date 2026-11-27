@@ -45,13 +45,6 @@ cabecalho('Trilha do conhecimento');
   <?php endforeach; ?>
 </ol>
 
-<progress class="barra" value="<?= $concluidas ?>" max="<?= max($total, 1) ?>"></progress>
-
-<div class="acoes">
-  <a class="botao secundario" href="referencias.php">Referências</a>
-</div>
-
-<ol class="trilha">
 <section class="cartao destaque">
   <h2>Avaliação final</h2>
   <p>São <?= (int) QTD_QUESTOES_PROVA ?> questões sorteadas do banco. No fim você vê o gabarito e a sua pontuação.</p>
